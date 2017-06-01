@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Tour Guide Madrid</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sights_Tab">Dónde ir</string>
+    <string name="tapas_Tab">Tapas</string>
+    <string name="rutas_Tab">Rutas</string>
+    <string name="compras_Tab">Compras</string>
+
+    <!--Strings for Dónde ir-->
+
+    <!--Museo del Prado-->
+    <string name="museo_prado_name">Museo del Prado</string>
+    <string name="museo_prado_address">Paseo del Prado, s\/n, 28014 Madrid</string>
+    <string name="museo_prado_timetable">10:00-20:00 </string>
+    <string name="museo_prado_price">$ </string>
+
+    <!--Plaza Mayor-->
+    <string name="plaza_mayor_name">Plaza Mayor</string>
+    <string name="plaza_mayor_address">Plaza Mayor, 28012 Madrid</string>
+    <string name="plaza_mayor_timetable">All day </string>
+    <string name="plaza_mayor_price">Free</string>
+
+
+    <!--Textos descripciones y nombres en que ver-->
+    <string name="museo_prado_description">Lorem ipsum dolor sit amet, consectetuer adipiscing
+        elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et
+        magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo,
+        fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a,
+        venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.
+        Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo
+        ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in,
+        viverra quis, feugiat a, tellus.</string>
+
+
+</resources>
