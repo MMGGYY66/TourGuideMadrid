@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <!--App's colors-->
+    <color name="colorPrimary">#673AB7</color>
+    <color name="colorPrimaryDark">#512DA8</color>
+    <color name="colorPrimaryLight">#7E57C2</color>
+    <color name="colorBackgroundTab">#B388FF</color>
+    <color name="colorAccent">#6200EA</color>
 
-    <color name="category_top_sights">#FFF7DA</color>
+    <color name="color_text_place">#000000</color>
+
+    <color name="primary_text">#ffffff</color>
+    <color name="secondary_text">#E0E0E0</color>
 </resources>

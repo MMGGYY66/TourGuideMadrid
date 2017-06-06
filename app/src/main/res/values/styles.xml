@@ -18,15 +18,33 @@
 
     <!-- Style for a tab that displays a category name -->
     <style name="CategoryTab" parent="Widget.Design.TabLayout">
-        <item name="tabIndicatorColor">@android:color/black</item>
-        <item name="tabSelectedTextColor">@android:color/holo_blue_bright</item>
+        <item name="tabIndicatorColor">@color/colorAccent</item>
+        <item name="tabSelectedTextColor">@color/secondary_text</item>
+        <item name="tabBackground">@color/colorBackgroundTab</item>
         <item name="textAllCaps">true</item>
         <item name="tabTextAppearance">@style/CategoryTabTextAppearance</item>
     </style>
 
     <!-- Text appearance style for a category tab -->
     <style name="CategoryTabTextAppearance" parent="TextAppearance.Design.Tab">
-        <item name="android:textColor">#A8A19E</item>
+        <item name="android:textColor">@color/primary_text</item>
+    </style>
+
+
+    <!--Text Headlines Style-->
+    <style name="HeadlineText">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/headline_text_size</item>
+        <item name="android:textColor">@color/color_text_place</item>
+        <item name="android:padding">@dimen/margin_10</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+
+    <!--Text Sub Headlines Style-->
+    <style name="SubHeadlineText">
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginStart">@dimen/margin_16</item>
+        <item name="android:textColor">@color/colorPrimaryLight</item>
     </style>
 
 </resources>

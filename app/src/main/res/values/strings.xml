@@ -1,38 +1,477 @@
 <resources>
     <string name="app_name">Tour Guide Madrid</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
+    <!--TextView texts for madrid_details.xml-->
+    <string name="horario">Horario:</string>
+    <string name="direccion">Dirección:</string>
+    <string name="precio">Precio:</string>
+    <string name="web">Web</string>
+    <string name="mapa">Mapa</string>
+    <string name="descripcion">DESCRIPCION</string>
+
+    <!-- Text for Tabs -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="sights_Tab">Dónde ir</string>
     <string name="tapas_Tab">Tapas</string>
-    <string name="rutas_Tab">Rutas</string>
-    <string name="compras_Tab">Compras</string>
+    <string name="ocio_Tab">Ocio</string>
+    <string name="mercados_Tab">Mercados</string>
+
+    <!-- Text for vars -->
+    <string name="sight_name_var">sightName</string>
+    <string name="sight_address_var">sightAddress</string>
+    <string name="sight_time_var">sightTime</string>
+    <string name="sight_price_var">sightPrice</string>
+    <string name="sight_web_var">sightWeb</string>
+    <string name="sight_map_var">sightMap</string>
+    <string name="sight_description_var">sightDescription</string>
+    <string name="sight_image_var">sightImage</string>
 
     <!--Strings for Dónde ir-->
 
     <!--Museo del Prado-->
-    <string name="museo_prado_name">Museo del Prado</string>
+    <string name="museo_prado_name">Museo Nacional del Prado</string>
     <string name="museo_prado_address">Paseo del Prado, s\/n, 28014 Madrid</string>
-    <string name="museo_prado_timetable">10:00-20:00 </string>
-    <string name="museo_prado_price">$ </string>
+    <string name="museo_prado_timetable">De lunes a sábado: de 10:00 a 20:00 h
+        \nDomingos y festivos: de 10:00 a 19:00 h</string>
+    <string name="museo_prado_price">De 0€ a 24€ </string>
+    <string name="museo_prado_web">http://www.museodelprado.es/en </string>
+    <string name="museo_prado_map">https://goo.gl/maps/FVCwV4nrvym </string>
 
-    <!--Plaza Mayor-->
-    <string name="plaza_mayor_name">Plaza Mayor</string>
-    <string name="plaza_mayor_address">Plaza Mayor, 28012 Madrid</string>
-    <string name="plaza_mayor_timetable">All day </string>
-    <string name="plaza_mayor_price">Free</string>
+    <string name="museo_prado_description">El Museo Nacional del Prado preside uno de los
+        itinerarios turísticos más visitados de la capital: el Paseo del Arte. Además de Las
+        meninas de Velázquez y de Los fusilamientos del 3 de mayo de Goya, en sus salas pueden
+        verse obras maestras de las escuelas española, italiana y flamenca. El Prado cuenta con
+        una valiosa colección de 8.600 cuadros y más de 700 esculturas.\n\nEs recomendable consultar
+        una guía y preparar la visita antes de entrar en el museo.</string>
+
+    <!--Palacio Real-->
+
+    <string name="palacio_real_name">Palacio Real</string>
+    <string name="palacio_real_address">CalleBailén, s\/n, 28013 Madrid</string>
+    <string name="palacio_real_timetable">Horario de invierno: Todos los días de 10:00 a 18:00 h
+        \nHorario de verano:: de 10:00 a 20:00 h</string>
+    <string name="palacio_real_price">De 0€ a 11€ </string>
+    <string name="palacio_real_web">http://www.patrimonionacional.es/real-sitio/palacios/6039 </string>
+    <string name="palacio_real_map">https://goo.gl/maps/TX3o5hebcwo</string>
+
+    <string name="palacio_real_descripcion">Morada regia desde Carlos III hasta Alfonso XIII,
+        el Palacio Real de Madrid nos propone un viaje por la Historia de España.
+        Aunque no está habitado por los actuales monarcas, el recinto es la residencia oficial
+        de los reyes.\n\nEl edificio se inspira en los bocetos realizados por Bernini para la
+        construcción del Louvre de París. Se articula en torno a un patio cuadrado y cuenta con
+        una galería y una Plaza de Armas, donde se sitúa la fachada principal del palacio. Tanto la
+        decoración de cada sala, como su distribución han ido cambiando a lo largo de los años,
+        adaptándose a las necesidades de sus reales inquilinos.</string>
+
+    <!--Parque del Retiro-->
+
+    <string name="parque_retiro_name">Parque del Retiro</string>
+    <string name="parque_retiro_address">Plaza de la Independencia, 7 28014 Madrid</string>
+    <string name="parque_retiro_timetable">Primavera Verano: 06:00 a 00:00 h
+        \nOtoño Invierno: de 06:00 a 22:00 h</string>
+    <string name="parque_retiro_price">Entrada libre </string>
+    <string name="parque_retiro_web">https://es.wikipedia.org/wiki/Parque_del_Retiro_de_Madrid </string>
+    <string name="parque_retiro_map">https://goo.gl/maps/bxXdDCzKYEq</string>
+
+    <string name="parque_retiro_descripcion">Con 125 hectáreas y más de 15.000 árboles, el parque
+        de El Retiro es un remanso verde en el centro de Madrid. Especial atención merecen algunos
+        de sus jardines: el jardín de Vivaces, los jardines de Cecilio Rodríguez
+        (jardines clasicistas con aires andaluces), los jardines del Arquitecto Herrero Palacios,
+        la Rosaleda (colección de rosas) y el Parterre Francés con el Ciprés Calvo, el árbol más
+        antiguo de Madrid, del que se dice que podría tener alrededor de 400 años.</string>
+
+    <!--Templo de Debod-->
+
+    <string name="templo_debod_name">Templo de Debod</string>
+    <string name="templo_debod_address">Calle Ferraz, 1 28008 Madrid</string>
+    <string name="templo_debod_timetable">Martes a domingos: 10:00 a 20:00 h
+        \nCerrado lunes</string>
+    <string name="templo_debod_price">Gratuito</string>
+    <string name="templo_debod_web">http://templodedebod.memoriademadrid.es</string>
+    <string name="templo_debod_map">https://goo.gl/maps/tFDDfY978wu</string>
+
+    <string name="templo_debod_descripcion">Se trata de un templo egipcio del siglo II a. d. C.
+        instalado en el Parque del Cuartel de la Montaña, cerca de la Plaza de España. El
+        templo fue donado a España por el gobierno egipcio para evitar que quedara inundado tras
+        la construcción de la gran presa de Asuán.\n\nLa construcción del templo la inició a
+        comienzos del siglo II a. C. el rey de Meroe Adijalamani, quien dedicó una capilla a los
+        dioses Amón e Isis. La capilla está decorada con relieves. Posteriores reyes de la dinastía
+        ptolemaica construyeron nuevas estancias alrededor del núcleo original. Tras la anexión de
+        Egipto al Imperio Romano, los emperadores Augusto, Tiberio y, tal vez, Adriano, culminaron
+        la construcción y decoración del edificio.</string>
+
+    <!--Parque El Capricho-->
+
+    <string name="capricho_name">Parque el Capricho</string>
+    <string name="capricho_address">Paseo Alameda de Osuna, 25 28042 Madrid</string>
+    <string name="capricho_timetable">Sábados, domingos y festivos: 09:00 a 18:30 h</string>
+    <string name="capricho_price">Gratuito</string>
+    <string name="capricho_web">http://bit.ly/1HCjjCY</string>
+    <string name="capricho_map">https://goo.gl/maps/iAGfx3VAL4H2</string>
+
+    <string name="capricho_descripcion">Estamos ante uno de los espacios verdes que conforman el
+        patrimonio artístico-natural de Madrid. Situado en Alameda de Osuna, es uno de los parques
+        más bellos y, paradójicamente, de los más desconocidos (sobre todo su búnker de la Guerra
+        Civil)​. Creado en 1784 por los Duques de Osuna y especialmente por la duquesa, doña María
+        Josefa de la Soledad Alonso Pimentel. Protectora de artistas, toreros e intelectuales, la
+        duquesa creó un auténtico paraíso natural que frecuentaron las personalidades más ilustres
+        de la época y en el que trabajaron los artistas, jardineros y escenográfos con más
+        prestigio.\n\nEl jardín ofrece tres estilos diferentes: el parterre o jardín francés, el
+        paisaje inglés y el giardino italiano. Delante de la fachada oeste del palacio se extiende
+        el parterre, con sus setos recortados como si de un bordado sobre la tierra se tratase. En
+        la parte baja se sitúa el italiano, el espacio más antiguo de la finca, que mezcla los
+        setos con árboles en los que tomar el sol en invierno o resguardarse a la sombra del sol
+        veraniego. Cerca de éste, el laberinto, concebido para el juego amoroso y los escondites,
+        está hecho con laurel y respeta los planos del que se plantó en vida de la duquesa. Por
+        último, el resto del parque está concebido como un típico jardín paisajista inglés,
+        evocando la naturaleza en su estado puro, que invita al paseo y a detenerse en los
+        rincones más escondidos.</string>
 
 
-    <!--Textos descripciones y nombres en que ver-->
-    <string name="museo_prado_description">Lorem ipsum dolor sit amet, consectetuer adipiscing
-        elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et
-        magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo,
-        fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a,
-        venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.
-        Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo
-        ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in,
-        viverra quis, feugiat a, tellus.</string>
+    <!--Strings for Tapas-->
 
+    <!--El anciano Rey de los Vinos-->
+
+    <string name="rey_vinos_name">El anciano Rey de los Vinos</string>
+    <string name="rey_vinos_address">Calle Bailén, 19 28005 Madrid</string>
+    <string name="rey_vinos_timetable">Lunes a domingos: 09:00 a 00:00 h
+        \nCierra martes</string>
+    <string name="rey_vinos_price">Hasta 15€</string>
+    <string name="rey_vinos_web">http://www.elancianoreydelosvinos.es</string>
+    <string name="rey_vinos_map">https://goo.gl/maps/RdUi7yq79Bu</string>
+
+    <string name="rey_vinos_descripcion">El joven matrimonio que regenta la taberna ha dado un
+        toque de actualidad al menú de esta antigua taberna, pero conservando su ambiente castizo,
+        de modo que ha sabido aunar con elegancia “lo viejo y lo nuevo” de este lugar entrañable
+        ubicado en una zona privilegiada frente a dos joyas madrileñas: el Palacio Real y la
+        Catedral de la Almudena. \n \n
+        El local es aproximadamente de 1886 y en él estaba instalada
+        una taberna típica, Casa Pedro Martínez, donde se vendía café de puchero, aguardiente y té.
+        En 1909, se cede a Luís Montón, que patenta las marcas de vino “el Viejo”, “los Viejos” y
+        “el Anciano Rey”, de donde procede el nombre de la actual taberna, que, por cierto, sigue
+        vendiendo dichos caldos, secos y dulces. Durante la época republicana hubo que eliminar
+        del rótulo y las mesas la palabra REY.</string>
+
+    <!--Botín-->
+
+    <string name="botin_name">Botín</string>
+    <string name="botin_address">Calle Cuchilleros, 17 28005 Madrid</string>
+    <string name="botin_timetable">Lunes a domingos: 13:00 a 16:00 h
+        \n20:00 a 24:00 h</string>
+    <string name="botin_price">De 31 a 45€</string>
+    <string name="botin_web">http://http://www.botin.es</string>
+    <string name="botin_map">https://goo.gl/maps/NP16jRjN9cF2</string>
+
+    <string name="botin_descripcion">Fundado en 1725 por Jean Botín, un cocinero francés, y su
+        esposa, de origen asturiano, el libro Guinness de los Récords lo reconoce como el
+        restaurante más antiguo del mundo. La larga historia de Botín se refleja en su presencia
+        en obras de escritores como Galdós (Fortunata y Jacinta, Misericordia), Hemingway (Fiesta),
+        Graham Greene (Monseñor Quijote), Gómez de la Serna (en sus Greguerías) o, actualmente,
+        María Dueñas (El tiempo entre costuras).\n\nEl restaurante ocupa las cuatro plantas del
+        inmueble y conserva el ambiente de posada original, tanto que el horno de leña de la casa
+        que aún hoy en día sigue asando cochinillos y corderos en la calle Cuchilleros es el mismo
+        que el de 1725. Actualmente, Botín (situado por la prestigiosa revista Forbes en el
+        número 3 de la lista de los restaurantes clásicos del mundo) es regentado por la cuarta
+        generacion de la familia González, sucesora de la familia fundadora.</string>
+
+
+    <!--Viuda de la Vaca-->
+
+    <string name="viuda_name">Viuda de Vacas</string>
+    <string name="viuda_address">Calle el Aguila, 2 28005 Madrid</string>
+    <string name="viuda_timetable">Viernes a miércoles: 13:00 a 16:30 h
+        \n20:00 a 00:00 h</string>
+    <string name="viuda_price">De 16 a 30€</string>
+    <string name="viuda_web">http://http://viudadevacas.es/</string>
+    <string name="viuda_map">https://goo.gl/maps/HSmFsMxhD692</string>
+
+    <string name="viuda_descripcion">Taberna típica madrileña situada en el barrio de La Latina
+        desde 1903. Cuenta con dos pisos de un edificio con más de 200 años de antigüedad en lo
+        que entonces eran las afueras de Madrid. Regentado por tres hermanos (Juan Carlos, Javier
+        y Belén Cánovas Vacas, la tercera generación familiar) nos ofrece una carta corta pero
+        tradicional donde se pueden degustar platos caseros con productos de primera calidad.
+        \n \nEsta casa de comidas centenaria ofrece platos castellanos de calidad, como el rabo de
+        toro y los callos, que son sus especialidades. Pero también destacan la deliciosa gallina
+        en pepitoria, las codornices rellenas, la merluza al horno o los calamares en su tinta,
+        por citar sólo algunos de sus platos. El sabor de antaño se mantiene gracias a que
+        continúan cocinando en cocina de carbón. Tienen un menú diario y una amplia carta de
+        vinos. Suele atraer a treintañeros que acuden a esta genuina taberna decorada con
+        azulejos antiguos a disfrutar de la "buena comida casera" que aquí se ofrece.</string>
+
+
+    <!--Casa Labra-->
+
+    <string name="casa_labra_name">Casa Labra</string>
+    <string name="casa_labra_address">Calle Tetuán, 12 28013 Madrid</string>
+    <string name="casa_labra_timetable">Taberna: 09:30 a 15:30 h / 17:30 a 23:00
+        \nRestaurante: 13:35 a 15:30 h / 20:15 a 22:00 h</string>
+    <string name="casa_labra_price">De 16 a 30€</string>
+    <string name="casa_labra_web">http://www.casalabra.es</string>
+    <string name="casa_labra_map">https://goo.gl/maps/bpYEYgfYy6F2</string>
+
+    <string name="casa_labra_descripcion">Esta antigua casa de comidas fue fundada en 1860 en
+        el número 12 de la calle Tetuán, en las inmediaciones de la Puerta del Sol. Su mayor
+        reclamo lo constituyen las tapas, fundamentalmente de bacalao, en tajadas recién fritas
+        y en croquetas. El local conserva su decoración original, con una fachada curva adaptada
+        a la estructura del edificio y un curioso cartel de cristal con el rótulo del establecimiento.
+        \n \nEn su interior, además de su mostrador de cinc y las tradicionales mesas de mármol,
+        el visitante puede recrear la vista en las pintadas y numerosos refranes que hacen alusión
+        a la historia del local. Y es que este restaurante ha pasado a la historia de Madrid
+        porque en él fundó Pablo Iglesias, en la clandestinidad, el Partido Socialista Obrero
+        Español, concretamente el 2 de mayo de 1879. Su evolución ha llevado a sus actuales
+        regentes, la familia Molina, a abrir un pequeño restaurante.</string>
+
+
+    <!--Bodega La Ardosa-->
+
+    <string name="bodega_ardosa_name">Bodega La Ardosa</string>
+    <string name="bodega_ardosa_address">Calle Colón, 13 28004 Madrid</string>
+    <string name="bodega_ardosa_timetable">Lunes a viernes: 08:30 a 02:00 h
+        \nSabados y domingos: 11:45 a 02:30 h</string>
+    <string name="bodega_ardosa_price">De 16 a 30€</string>
+    <string name="bodega_ardosa_web">http://www.laardosa.es/</string>
+    <string name="bodega_ardosa_map">https://goo.gl/maps/nbSPEyYHfsn</string>
+
+    <string name="bodega_ardosa_descripcion">En 1892, Rafael Fernández abrió varias tabernas con
+        el nombre de La Ardosa, en recuerdo del pueblo del mismo nombre de la provincia de Toledo.
+        La de Malasaña conserva todavía elementos de su decoración original, como el rótulo de
+        cristal grabado, el zócalo de azulejos y el ventilador.
+        \n\nLa Ardosa se ha convertido en un lugar único donde, durante estos años, han ido
+        enseñando a muchos aficionados a degustar cerveza de forma diferente y a muchos camareros
+        a darle importancia a la forma de servirla.\n\nOfrecen una gran variedad de cervezas
+        irlandesas a precios muy asequibles, vermouth de grifo, cervezas rubias, buenos vinos de
+        la Ribera y de Rioja. Para picar ofrecen canapés variados, salmorejo, salazones, cecina de
+        León o jamón de pato, pero, sobre todo, destaca su tortilla de patatas, la especialidad de
+        la casa y una de las mejores de toda la capital. </string>
+
+
+    <!--Strings for Mercados Gastronómicos-->
+
+    <!--Mercado San Miguel-->
+
+    <string name="mercado_san_miguel_name">Mercado San Miguel</string>
+    <string name="mercado_san_miguel_address">Plaza San Miguel, s/n 28005 Madrid</string>
+    <string name="mercado_san_miguel_timetable">Domingo a miércoles: 10:00 a 00:00 h
+        \nJueves y sabados: 10:00 a 02:00 h</string>
+    <string name="mercado_san_miguel_price">$$$</string>
+    <string name="mercado_san_miguel_web">http://www.mercadodesanmiguel.es/</string>
+    <string name="mercado_san_miguel_map">https://goo.gl/maps/Q8q9DkG4Acx</string>
+
+    <string name="mercado_san_miguel_descripcion">Con cien años a sus espaldas y un edificio que
+        es uno de los mejores ejemplos de la arquitectura de hierro, y uno de los pocos que hay
+        en Madrid, este mercado se ha convertido en un auténtico templo gourmet.
+        \n\nEl Mercado de San Miguel es un templo para el producto de calidad. Un producto al
+        que puede acceder cada día para satisfacer las necesidades de la cesta de la compra de
+        los vecinos, pero también es un espacio ideado para los visitantes y turistas que deseen
+        probar el género que se expone en los puestos.\n\nEl mercado cuenta con los mejores productos
+        frescos como carnes, pescados y frutas, algunos de ellos difíciles de encontrar en
+        otros sitios. También hay barras en las que poder probar aperitivos.</string>
+
+    <!--Mercado San Antón-->
+
+    <string name="mercado_san_anton_name">Mercado de San Antón</string>
+    <string name="mercado_san_anton_address">Calle Augusto Figueroa, 24 28004 Madrid</string>
+    <string name="mercado_san_anton_timetable">Lunes a sabados: 10:00 a 22:00 h</string>
+    <string name="mercado_san_anton_price">$$</string>
+    <string name="mercado_san_anton_web">http://http://www.mercadosananton.com//</string>
+    <string name="mercado_san_anton_map">https://goo.gl/maps/SnRrwfn4HyC2</string>
+
+    <string name="mercado_san_anton_descripcion">En pleno barrio de Chueca, este mercado es una
+        caja de sorpresas que merece la pena visitar. El mercado consta de tres plantas. La primera
+        de ellas está dedicada a la venta de producto perecedero y aquí es posible adquirir desde
+        embutidos hasta hamburguesas de calidad o frutas y verduras variadas.
+        \n\nLa segunda planta está compuesta por una taberna-vinoteca y diez puestos de show
+        cooking/take away, en los que es posible degustar y llevarse a casa desde especialidades
+        griegas hasta comida japonesa, marisco, dulces, batidos y zumos. Esta planta cuenta también
+        con la Sala Trapezio, que acogerá diferentes iniciativas culturales.\n\nEn la tercera
+        planta se ubica el restaurante La Cocina de San Antón donde se pueden comer los productos
+        adquiridos previamente en los puestos de la primera planta, pero cocinados por un
+        suplemento de cuatro euros. El restaurante ofrece un menú diario a mediodía y una
+        amplia carta basada en productos frescos y naturales propios de temporada, con platos
+        inspirados en la cocina tradicional española con algunos toques internacionales.\n\nEl
+        Mercado de San Antón representa también a un nuevo modelo de mercado sostenible, en el
+        que el lucernario central funciona como un enorme colector de energía fotovoltaica y el
+        suelo es de basalto fundido, un material originalmente reutilizado. Dispone también de
+        un sistema de recogida que reduce en un 80% el volumen de basura orgánica. El
+        mercado tiene conexión wi-fi gratuita en todas sus plantas </string>
+
+
+    <!--Mercado San Ildefonso-->
+
+    <string name="mercado_san_ildefonso_name">Mercado de San Ildefonso</string>
+    <string name="mercado_san_ildefonso_address">Calle Fuencarral, 57 28004 Madrid</string>
+    <string name="mercado_san_ildefonso_timetable">Lunes a sabados: 10:00 a 22:00 h</string>
+    <string name="mercado_san_ildefonso_price">$$</string>
+    <string name="mercado_san_ildefonso_web">http://www.mercadodesanildefonso.com/</string>
+    <string name="mercado_san_ildefonso_map">https://goo.gl/maps/RNzX3aAS6iT2</string>
+
+    <string name="mercado_san_ildefonso_descripcion">Novedoso concepto de ocio, disfrute y
+        socialización en torno a la gastronomía, al estilo de los street food market que pueden
+        encontrarse en Londres, Nueva York, Singapur o Bangkok. Un punto de encuentro en horario
+        after work, una alternativa al aperitivo o una parada estratégica para vecinos y asiduos
+        de Malasaña y Chueca, ya que se encuentra en la calle de Fuencarral, justo en los límites
+        de ambos barrios.
+        \n \nEl mercado se ubica a escasos metros del lugar que ocupó hasta su demolición en el
+        año 1970 el que fuera el primer mercado de abastos cubierto de Madrid. Su oferta se basa
+        principalmente en el producto manufacturado, algunos en estado puro, pero siempre listos
+        para tomar en el establecimiento o mientras se sigue el rumbo por la calle principal. </string>
+
+
+    <!--Mercado Platea Madrid-->
+
+    <string name="platea_name">Platea Madrid</string>
+    <string name="platea_address">Calle Goya, 5 28013 Madrid</string>
+    <string name="platea_timetable">Domingo a miércoles: 12:00 a 00:30 h
+    \nJueves a sabado: 12:00 a 02:30 h</string>
+    <string name="platea_price">16 a 30€</string>
+    <string name="platea_web">http://www.plateamadrid.co/</string>
+    <string name="platea_map">https://goo.gl/maps/Gx6v4NrvHiK2</string>
+
+    <string name="platea_descripcion">Platea Madrid es un revolucionario espacio gourmet que es ya
+        un referente del concepto gastroexperience. Un espacio versátil de 5.800 metros cuadrados
+        que ofrece numerosas propuestas de ocio que pueden disfrutarse mientras se come o se tapea.
+        Los sabores del mundo también tienen cabida, con muestras de cocina peruana, japonesa,
+        mexicana e italiana.
+        \n\nPlatea es uno de los puntos clave de los paladares gourmet en Madrid. Se encuentra
+        ubicado en el antiguo cine Carlos III -ubicado junto a la céntrica planta de Colón- que
+        fue transformado por Lázaro Rosa-Violán , pero conservando toda su estructura, con palcos,
+        foso y escenario. El espacio está dividido en varias plantas dedicadas al ocio
+        gastronómico:\n\nEl Patio (planta 0):  es la zona del tapeo: croquetas, tortillas caseras,
+        tempuras, ensaladas, bocadillos, sándwiches, el mejor jamón de bellota y nuestros típicos
+        encurtidos. Y todo junto a unas impresionantes barras diseñadas para ofrecer desde el mejor
+        tiro de caña a una variada de carta de vinos y vermuts, cava o champagnes.\n\nEl Foso
+        (planta -1): diferentes puestos gastronómicos de cocina mediterránea e internacional se
+        entremezclan con una cocina internacional y de vanguardia.\n\nArriba (planta 1): la línea
+        prêt-à-porter del cocinero Ramón Freixa, distinguido con dos estrellas Michelin. Un lugar
+        donde conviven tradición y vanguardia.\n\nEl Palco (planta 2): una barra preciosa y mil
+        bebidas para disfrutar de la creatividad de sus bartenders.\n\nEl Club (planta 3): el
+        secreto mejor guardado de Platea, un lugar donde disfrutar de intimidad combinada con la
+        elegancia que rodea este ambiente.\n\nA pie de calle: la pastelería Mamá Framboise y los
+        productos sibaritas de Gold Gourmet.
+    </string>
+
+    <!--Gourmet Experience Gran Vía-->
+
+    <string name="gran_via_name">Gourmet Experience Gran Vía</string>
+    <string name="gran_via_address">Plaza Callao, s/n 28013 Madrid</string>
+    <string name="gran_via_timetable">Luneas a domingo: 10:00 a 12:00 h</string>
+    <string name="gran_via_price">$$$</string>
+    <string name="gran_via_web">https://www.elcorteingles.es/supermercado/aptc/gourmet-experience/granvia</string>
+    <string name="gran_via_map">https://goo.gl/maps/CNZjLLv7GEK2</string>
+
+    <string name="gran_via_descripcion">Ubicado en la última planta de El Corte Inglés de Callao,
+        Gourmet Experience es un espacio gastronómico con una de las mejores vistas de la ciudad,
+        que abarca la Gran Vía, el Palacio Real o la Plaza de España. En sus 1.500 metros
+        cuadrados de superficie se encuentran diez locales, entre restaurantes, panaderías o
+        heladerías, cuyos productos se pueden degustar tanto en la propia barra de los locales
+        como en las zonas comunes del espacio.
+        \n\nLos establecimientos que se encuentran en este espacio son:  la panadería Harina;
+        Hamburguesa Nostra, con treinta variedades de carne de ternera, vaca, cerdo ibérico,
+        cordero o wagyu; La Máquina, en cuya barra se degustan platos tradicionales; La Central
+        Mexicana, con tequilas y especialidades del país centroamericano; Imanol, con ‘pintxos’
+        y sidra; Amorino, con helados artesanales; Pizza al Cuadrado; Juanillo Club, con su oferta
+        de ostras y cócteles y Tse Yang Dim Sum Club, concepto informal de comida oriental
+        inspirado en uno de sus platos más míticos, los Dim Sum Gourmet; Perro bar, con una
+        amplia carta de perritos de autor ideados por el chef Estanis Carenzo y cerveza artesanal
+        La Virgen.\n\nUno de  los puntos fuertes de este lugar es que casi todos los establecimientos
+        tienen un punto de venta de productos gourmet. El otro gran éxito del local es la posibilidad
+        de disfrutar de una copa en su terraza nocturna, que permanece abierta una vez que el
+        centro comercial ha cerrado sus puertas, ampliando su horario hasta las 12 de la noche.</string>
+
+    <!--Strings for Ocio-->
+
+    <!--Parque Warner Madrid-->
+
+    <string name="warner_name">Parque Warner Madrid</string>
+    <string name="warner_address">M-301, Km 15.5, 28330 San Martín de la Vega, Madrid</string>
+    <string name="warner_timetable">Horario variable según el mes. Consultar en página web</string>
+    <string name="warner_price">Entrada adulto: desde 26,45€(taquilla);desde 15.95€ (online)\nEntrada
+        reducida (3-7 años, mayores de 65 años), desde: 19.95€ (taquilla); desde 15,90 (online).</string>
+    <string name="warner_web">http://www.parquewarner.com</string>
+    <string name="warner_map">https://goo.gl/maps/XnhpQiyE3LJ2</string>
+
+    <string name="warner_descripcion">Parque de atracciones temático que ofrece cinco áreas
+        diferentes llenas de atracciones, restaurantes y tiedas para disfrutar en familia.
+        \n \nDesde el glamour de Hollywood Boulevard a la magia de Cartoon Village, desde los
+        shows en directo de DC Superheroes World y Warner Bros. Studios a la acción de Old
+        West Territory. Las cinco áreas temáticas colmarán a cualquier enamorado de las
+        atracciones, tanto de las más arriesgadas como de las más tranquilas y adecuadas
+        para niños. \n
+    </string>
+
+    <!--Faunia-->
+
+    <string name="faunia_name">Faunia</string>
+    <string name="faunia_address">Avenida de las Comunidades, 28 28032</string>
+    <string name="faunia_timetable">Horario variable según el mes. Consultar en página web</string>
+    <string name="faunia_price">Entrada adulto: desde 26,45€(taquilla);desde 15.95€ (online)\nEntrada
+        reducida (3-7 años, mayores de 65 años), desde: 19.95€ (taquilla); desde 15,90 (online).</string>
+    <string name="faunia_web">http://www.faunia.es</string>
+    <string name="faunia_map">https://goo.gl/maps/7ipkoo1bQFw</string>
+
+    <string name="faunia_descripcion">Faunia es un parque biológico (jardín botánico y parque
+        zoológico a la vez) de unos 140.000 metros cuadrados de extensión. Dedicado a la
+        naturaleza, ofrece diferentes ecosistemas como la jungla, los polos o el bosque
+        africano, entre otros. Fue inaugurado el 10 de Julio de 2001 bajo la denominación
+        Parque Biológico de Madrid. En 2002 fue rebautizado con el nombre de Faunia.
+        \n\nEl visitante puede recorrerlo en cuatro o cinco horas caminando por los viales y
+        siguiendo las señales indicadoras que se encuentran a lo largo del recorrido. De esta
+        manera se conocen  animales de todo tipo, desde los de La Granja hasta los del Ecosistema
+        Polar, pasando por La Jungla y finalizando el recorrido en los agrupados bajo el nombre
+        de Veneno. Durante toda la ruta, se muestra el acceso a cada pabellón o área de
+        restauración y el tiempo aproximado en llegar a cada una de ellas. \n
+    </string>
+
+
+    <!--SnowZone-->
+
+    <string name="snow_zone_name">Madrid SnowZone</string>
+    <string name="snow_zone_address">Carretera A-5, km 23,5 28939 Madrid</string>
+    <string name="snow_zone_timetable">Marzo a noviembre:\nDoming a jueves: 10:00 a 22:00 h\nViernes
+        a sábados: 10:00 a 00:00 h\n\nDiciembre a febrero:\nLunes a domingo: 10:00 a 00:12 h</string>
+    <string name="snow_zone_price">Varias ofertas. Consultar en la web.</string>
+    <string name="snow_zone_web">http://www.madridsnowzone.com/</string>
+    <string name="snow_zone_map">https://goo.gl/maps/Wthhh2NghfP2</string>
+
+    <string name="snow_zone_descripcion">La única pista de nieve cubierta de España ofrece la
+        oportunidad de practicar el esquí los 365 días al año; cien metros de largo y cuarenta de
+        ancho ideales para aquellos que aún están aprendiendo y más que suficientes para los que
+        se estén perfeccionando. En total 18.000 m2 dedicados en exclusiva al mundo de la nieve
+        con tiendas, restaurantes y escuela y todo como si estuvieras en la alta montaña.
+    </string>
+
+    <!--Aquópolis -->
+
+    <string name="aquopolis_name">Aquópolis</string>
+    <string name="aquopolis_address">Calle Mirasierra, s/n 28691 Madrid</string>
+    <string name="aquopolis_timetable">Por temporada. Consultar Web Oficial</string>
+    <string name="aquopolis_price">Desde 15.90€. Para más información consultar web oficial.</string>
+    <string name="aquopolis_web">http://villanueva.aquopolis.es//</string>
+    <string name="aquopolis_map">https://goo.gl/maps/bGwCR8xjUMr</string>
+
+    <string name="aquopolis_descripcion">Es el parque acuático más grande de Europa, ya que
+        cuenta con 12 atracciones y una amplia zona verde donde descansar o tomar el sol.\n\nAdemás,
+        tiene una situación privilegiada en cuanto a temperatura ambiente, ya que se encuentra
+        cerca de la Sierra de Navacerrada.
+    </string>
+
+    <!--Windobona Indoor Skydiving-->
+
+    <string name="windobona_name">Windobona Indoor Skydiving</string>
+    <string name="windobona_address">Calle Calderilla, 16 28054Madrid</string>
+    <string name="windobona_timetable">Por temporada. Consultar Web Oficial</string>
+    <string name="windobona_price">Desde 15.90€. Para más información consultar web oficial.</string>
+    <string name="windobona_web">http://villanueva.aquopolis.es//</string>
+    <string name="windobona_map">https://goo.gl/maps/bGwCR8xjUMr</string>
+
+    <string name="windobona_descripcion">WINDOBONA Indoor Skydiving es un túnel de viento para la
+        práctica de la caída libre que ofrece tanto al público general como a paracaidistas
+        profesionales la posibilidad de volar en una cámara de vuelo de vidrio que recrea a la
+        perfección el efecto de la caída libre.\n\nSituado en el barrio de Carabanchel, este
+        túnel de viento vertical es totalmente seguro y ofrece un aire libre de turbulencias a una
+        velocidad máxima de 280 km/h. La cámara de vuelo puede acoger hasta 8 voladores al mismo
+        tiempo, que pueden ser vistos a través de los vidrios que la rodean por los familiares y
+        amigos que acudan con el volador.
+    </string>
 
 </resources>

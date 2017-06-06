@@ -6,7 +6,7 @@ package com.example.android.tourguidemadrid;
 
 public class MadridInfo {
 
-    // Constant value that represents no image was provided for this word
+    // Constant value that represents no image was provided for the sight
     private static final int NO_IMAGE_PROVIDED = -1;
 
     //TopSight name
@@ -18,14 +18,20 @@ public class MadridInfo {
     //TopSight Description
     private String mTopSightDescription;
 
-   //TopSight Address
+    //TopSight Address
     private String mTopSightAddress;
 
-   //TopSight Time
+    //TopSight Time
     private String mTopSightTime;
 
     //TopSight Price
     private String mTopSightPrice;
+
+    //TopSight Web
+    private String mTopSightWeb;
+
+    //TopSight Map
+    private String mTopSightMap;
 
 
     /**
@@ -33,18 +39,26 @@ public class MadridInfo {
      *
      * @param topSightName        is the name of the Top sight
      * @param topSightAddress     is the address of the Top sight
-     * @param topSightTime        is the open times of the Top sight
-     * @param topSightPrice       is the cost of the Top sight
+     * @param topSightTime        is the timetable of the Top sight
+     * @param topSightPrice       is the price of the Top sight
+     * @param topSightWeb         is the web of the Top sight
+     * @param topSightMap         is the map location of the Top sight
+     * @param topSightDescription is the description of the sight
      * @param imageResourceId     is the drawable  resource ID for the image associate
      *                            with the Top sight
+     *
      */
 
-    public MadridInfo(String topSightName, String topSightAddress,
-                      String topSightTime, String topSightPrice, int imageResourceId) {
+    public MadridInfo(String topSightName, String topSightAddress, String topSightTime,
+                      String topSightPrice, String topSightWeb, String topSightMap,
+                      String topSightDescription, int imageResourceId ) {
         mTopSightName = topSightName;
         mTopSightAddress = topSightAddress;
         mTopSightTime = topSightTime;
         mTopSightPrice = topSightPrice;
+        mTopSightWeb = topSightWeb;
+        mTopSightMap = topSightMap;
+        mTopSightDescription = topSightDescription;
         mImageResourceId = imageResourceId;
 
     }
@@ -68,7 +82,7 @@ public class MadridInfo {
         return mTopSightDescription;
     }
 
-   // Set TopSight Description
+    // Set TopSight Description
     public void setTopSightDescription(String topSightDescription) {
         mTopSightDescription = topSightDescription;
     }
@@ -81,7 +95,8 @@ public class MadridInfo {
     }
 
     // Set TopSightAddress
-    public void setTopSightAddress(String topSightAddress){
+    public void setTopSightAddress(String topSightAddress) {
+
         mTopSightAddress = topSightAddress;
     }
 
@@ -92,7 +107,8 @@ public class MadridInfo {
     }
 
     // Set TopSightTime
-    public void setTopSightTime(String topSightTime){
+    public void setTopSightTime(String topSightTime) {
+
         mTopSightTime = topSightTime;
     }
 
@@ -103,9 +119,35 @@ public class MadridInfo {
     }
 
     // Set TopSightPrice
-    public void setTopSightPrice(String topSightPrice){
-        mTopSightTime = topSightPrice;
+    public void setTopSightPrice(String topSightPrice) {
+
+        mTopSightPrice = topSightPrice;
     }
+
+    //Get TopSight Web
+    public String getTopSightWeb() {
+
+        return mTopSightWeb;
+    }
+
+    // Set TopSightWeb
+    public void setTopSightWeb(String topSightWeb) {
+
+        mTopSightWeb = topSightWeb;
+    }
+
+    //Get TopSight Map
+    public String getTopSightMap() {
+
+        return mTopSightMap;
+    }
+
+    // Set TopSightMap
+    public void setTopSightMap(String topSightMap) {
+
+        mTopSightMap = topSightMap;
+    }
+
 
     //Get TopSight ImageResourceId
     public int getImageResourceId() {
@@ -113,7 +155,7 @@ public class MadridInfo {
         return mImageResourceId;
     }
 
-     // Returns whether or not there is an image for this word.
+    // Returns whether or not there is an image for this sight
     public boolean hasImage() {
 
         return mImageResourceId != NO_IMAGE_PROVIDED;

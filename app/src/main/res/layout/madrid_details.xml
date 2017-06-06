@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -8,11 +9,140 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-       <TextView
-           android:id="@+id/description_details"
-           android:layout_width="match_parent"
-           android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/image_details"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_200"
+            android:scaleType="centerCrop"
+            tools:src="@drawable/museo_del_prado" />
 
+        <TextView
+            android:id="@+id/name_details"
+            style="@style/HeadlineText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Place" />
+
+        <TextView
+            style="@style/SubHeadlineText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/direccion" />
+
+        <TextView
+            android:id="@+id/address_details"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/height_0"
+            android:layout_marginBottom="@dimen/margin_10"
+            android:layout_marginEnd="@dimen/margin_16"
+            android:layout_marginStart="@dimen/margin_16"
+            android:layout_weight="1"
+            android:text="@string/sight_address_var"
+            tools:text="Dirección" />
+
+        <TextView
+            style="@style/SubHeadlineText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/horario" />
+
+
+        <TextView
+            android:id="@+id/timetable_details"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_gravity="start"
+            android:layout_marginBottom="@dimen/margin_10"
+            android:layout_marginEnd="@dimen/margin_16"
+            android:layout_marginStart="@dimen/margin_16"
+            android:layout_weight="1"
+            android:text="@string/sight_time_var"
+            tools:text="Horario" />
+
+        <TextView
+            style="@style/SubHeadlineText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/precio" />
+
+        <TextView
+            android:id="@+id/price_details"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/height_0"
+            android:layout_marginBottom="@dimen/margin_16"
+            android:layout_marginEnd="@dimen/margin_16"
+            android:layout_marginStart="@dimen/margin_16"
+            android:layout_weight="1"
+            tools:text="$$$" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="@dimen/margin_100"
+            android:layout_marginStart="@dimen/margin_100"
+            android:stretchColumns="*">
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:elevation="@dimen/elevation"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/web_details"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/web"
+                    android:textAlignment="viewEnd"
+                    android:textColor="@color/colorPrimary" />
+
+                <ImageView
+                    android:id="@+id/web_icono"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginStart="@dimen/margin_2"
+                    android:src="@drawable/ic_public_black_24dp" />
+
+                <TextView
+                    android:id="@+id/map_details"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:layout_marginStart="@dimen/margin_10"
+                    android:text="@string/mapa"
+                    android:textColor="@color/colorPrimary" />
+
+                <ImageView
+                    android:id="@+id/map_icono"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:src="@drawable/ic_location_on_black_24dp" />
+            </TableRow>
+
+        </TableLayout>
+
+        <TextView
+            android:id="@+id/description_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_16"
+            android:layout_marginTop="@dimen/margin_26"
+            android:text="@string/descripcion"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryLight"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/description_details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="@dimen/margin_16"
+            android:gravity="start"
+            android:textAlignment="textStart"
+            tools:text="Descripción text" />
 
     </LinearLayout>
 

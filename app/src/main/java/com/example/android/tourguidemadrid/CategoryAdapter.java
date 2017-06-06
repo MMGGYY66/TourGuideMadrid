@@ -40,8 +40,10 @@ public class CategoryAdapter extends FragmentPagerAdapter {
 
         } else if(position == 1) {
             return new TapasFragment();
+        }else if (position == 2) {
+            return new MercadosFragment();
         }else {
-            return new RutasFragment();
+            return new OcioFragment();
         }
     }
 
@@ -52,7 +54,7 @@ public class CategoryAdapter extends FragmentPagerAdapter {
     @Override
     public int getCount() {
 
-        return 3;
+        return 4;
     }
 
     @Override
@@ -63,9 +65,10 @@ public class CategoryAdapter extends FragmentPagerAdapter {
         }
         else if(position == 1) {
             return mContext.getString(R.string.tapas_Tab);
-        } else{
-            return mContext.getString(R.string.rutas_Tab);
-        }
+        } else if (position == 2){
+            return mContext.getString(R.string.mercados_Tab);
+        }else
+            return mContext.getString(R.string.ocio_Tab);
 
 
     }

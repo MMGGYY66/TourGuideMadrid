@@ -31,19 +31,42 @@ public class TapasFragment extends Fragment {
 
         // add elements to the ArrayList
 
-        madrid.add(new MadridInfo(getString(R.string.museo_prado_name),getString(R.string.museo_prado_address),
-                getString(R.string.museo_prado_timetable),getString(R.string.museo_prado_price),
-                R.drawable.museo_del_prado));
-        madrid.add(new MadridInfo(getString(R.string.plaza_mayor_name),getString(R.string.plaza_mayor_address),
-                getString(R.string.plaza_mayor_timetable), getString(R.string.plaza_mayor_price),
-                R.drawable.museo_del_prado));
+        madrid.add(new MadridInfo(getString(R.string.rey_vinos_name),
+                getString(R.string.rey_vinos_address), getString(R.string.rey_vinos_timetable),
+                getString(R.string.rey_vinos_price), getString(R.string.rey_vinos_web),
+                getString(R.string.rey_vinos_map),
+                getString(R.string.rey_vinos_descripcion),R.drawable.rey_vinos));
+
+        madrid.add(new MadridInfo(getString(R.string.botin_name),
+                getString(R.string.botin_address), getString(R.string.botin_timetable),
+                getString(R.string.botin_price), getString(R.string.botin_web),
+                getString(R.string.botin_map),
+                getString(R.string.botin_descripcion),R.drawable.botin));
+
+        madrid.add(new MadridInfo(getString(R.string.viuda_name),
+                getString(R.string.viuda_address), getString(R.string.viuda_timetable),
+                getString(R.string.viuda_price), getString(R.string.viuda_web),
+                getString(R.string.viuda_map),
+                getString(R.string.viuda_descripcion),R.drawable.viuda_de_vacas));
+
+        madrid.add(new MadridInfo(getString(R.string.casa_labra_name),
+                getString(R.string.casa_labra_address), getString(R.string.casa_labra_timetable),
+                getString(R.string.casa_labra_price), getString(R.string.casa_labra_web),
+                getString(R.string.casa_labra_map),
+                getString(R.string.casa_labra_descripcion),R.drawable.casa_labra));
+
+        madrid.add(new MadridInfo(getString(R.string.bodega_ardosa_name),
+                getString(R.string.bodega_ardosa_address), getString(R.string.bodega_ardosa_timetable),
+                getString(R.string.bodega_ardosa_price), getString(R.string.bodega_ardosa_web),
+                getString(R.string.bodega_ardosa_map),
+                getString(R.string.bodega_ardosa_descripcion),R.drawable.bodega_ardosa));
+
 
         final MadridInfoAdapter adapter = new MadridInfoAdapter(getActivity(), madrid);
 
         final ListView listView = (ListView) rootView.findViewById(R.id.list);
 
         listView.setAdapter(adapter);
-
 
         return rootView;
     }
